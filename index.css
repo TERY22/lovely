@@ -353,4 +353,8 @@ body {
   .foxy-message img {
     width: 40%;
   }
+
+  .from {
+    bottom: 18%;
+  }
 }

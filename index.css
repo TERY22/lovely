@@ -194,7 +194,7 @@ body {
 .from {
   position: absolute;
   bottom: 20%;
-  left: 46%;
+  left: 45%;
   color: #e5e5e5;
   font-size: 20px;
 }
@@ -301,6 +301,24 @@ body {
   right: 0;
   opacity: 0;
   transition: opacity 0.5s ease;
+}
+
+.tip {
+  color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.tip::after {
+  content: '';
+  background-image: url('arrow.svg');
+  background-size: cover;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
 }
 
 .foxy-message.show {

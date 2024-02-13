@@ -296,7 +296,9 @@ body {
 
 @media (max-width: 675px) {
   .envelope {
-    width: 380px;
+    width: 100%;
+    left: 0;
+    top: 0;
   }
 
   .text-container {

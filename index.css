@@ -291,8 +291,26 @@ body {
   width: auto;
 }
 
+.card:hover+.title {
+  color: red;
+}
 
+.foxy-message {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
 
+.foxy-message.show {
+  opacity: 1;
+  display: block;
+}
+
+.foxy-message img {
+  width: 50%;
+}
 
 @media (max-width: 675px) {
   .envelope {
@@ -312,5 +330,9 @@ body {
   .card {
     height: 330px;
     width: 230px;
+  }
+
+  .foxy-message img {
+    width: 40%;
   }
 }
